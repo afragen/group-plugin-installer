@@ -1,0 +1,38 @@
+{
+    "name": "afragen/group-plugin-installer",
+    "description": "Allows you to easily add a group of plugins to a WordPress installation.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress",
+        "development",
+        "plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Fragen",
+            "email": "andy@thefragens.com",
+            "homepage": "https://thefragens.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/afragen/group-plugin-installer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/afragen/group-plugin-installer/issues",
+        "source": "https://github.com/afragen/group-plugin-installer"
+    },
+    "prefer-stable": true,
+    "require": {
+        "afragen/wp-dependency-installer": "^2"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "wp i18n make-pot . languages/group-plugin-installer.pot"
+        ]
+    }
+}
