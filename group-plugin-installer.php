@@ -1,11 +1,23 @@
 <?php
 /**
+ * Group Plugin Installer
+ *
+ * @author  Andy Fragen
+ * @license MIT
+ * @link    https://github.com/afragen/group-plugin-installer
+ * @package group-plugin-installer
+ */
+
+/**
  * Plugin Name: Group Plugin Installer
  * Plugin URI: https://github.com/afragen/group-plugin-installer
  * Description: Allows you to easily add a group of plugins to a WordPress installation.
  * Author: Andy Fragen
- * Version: 0.1.0
+ * Version: 0.2.0
  * License: MIT
+ * Domain Path: /languages
+ * Text Domain: group-plugin-installer
+ * Network: true
  * Requires WP: 4.7
  * Requires PHP: 5.6
  * GitHub Plugin URI: afragen/group-plugin-installer
@@ -16,7 +28,7 @@ WP_Dependency_Installer::instance()->run( __DIR__ );
 add_filter(
 	'wp_dependency_timeout',
 	function( $timeout, $source ) {
-		$timeout = $source !== basename( __DIR__ ) ? $timeout : 14;
+		$timeout = basename( __DIR__ ) !== $source ? $timeout : 14;
 		return $timeout;
 	},
 	10,

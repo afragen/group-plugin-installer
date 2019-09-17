@@ -1,12 +1,5 @@
 [
   {
-    "name": "Query Monitor",
-    "host": "wordpress",
-    "slug": "query-monitor/query-monitor.php",
-    "uri": "https://wordpress.org/plugins/query-monitor/",
-    "optional": false
-  },
-  {
     "name": "GitHub Updater",
     "host": "github",
     "slug": "github-updater/github-updater.php",
@@ -14,5 +7,19 @@
     "branch": "master",
     "optional": false,
     "token": null
+  },
+  {
+    "name": "Query Monitor",
+    "host": "wordpress",
+    "slug": "query-monitor/query-monitor.php",
+    "uri": "https://wordpress.org/plugins/query-monitor/",
+    "optional": false
+  },
+  {
+    "name": "WP Debugging",
+    "host": "wordpress",
+    "slug": "wp-debugging/wp-debugging.php",
+    "uri": "https://wordpress.org/plugins/wp-debugging/",
+    "optional": false
   }
 ]
