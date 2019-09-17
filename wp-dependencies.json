@@ -21,5 +21,12 @@
     "slug": "wp-debugging/wp-debugging.php",
     "uri": "https://wordpress.org/plugins/wp-debugging/",
     "optional": false
+  },
+  {
+    "name": "Local Development",
+    "host": "wordpress",
+    "slug": "local-development/local-development.php",
+    "uri": "https://wordpress.org/plugins/local-development/",
+    "optional": false
   }
 ]
