@@ -13,12 +13,12 @@
  * Plugin URI: https://github.com/afragen/group-plugin-installer
  * Description: Allows you to easily add a group of plugins to a WordPress installation.
  * Author: Andy Fragen
- * Version: 0.2.0
+ * Version: 0.2.1
  * License: MIT
  * Domain Path: /languages
  * Text Domain: group-plugin-installer
  * Network: true
- * Requires WP: 4.7
+ * Requires at least: 4.7
  * Requires PHP: 5.6
  * GitHub Plugin URI: afragen/group-plugin-installer
  */
