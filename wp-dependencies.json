@@ -9,6 +9,15 @@
     "token": null
   },
   {
+    "name": "GitHub Updater Support",
+    "host": "github",
+    "slug": "github-updater-support/github-updater-support.php",
+    "uri": "afragen/github-updater-support",
+    "branch": "master",
+    "optional": true,
+    "token": null
+  },
+  {
     "name": "Query Monitor",
     "host": "wordpress",
     "slug": "query-monitor/query-monitor.php",
