@@ -28,7 +28,7 @@
     },
     "prefer-stable": true,
     "require": {
-        "afragen/wp-dependency-installer": "^2"
+        "afragen/wp-dependency-installer": "^3"
     },
     "scripts": {
         "post-update-cmd": [

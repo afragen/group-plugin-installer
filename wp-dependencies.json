@@ -5,7 +5,7 @@
     "slug": "github-updater/github-updater.php",
     "uri": "afragen/github-updater",
     "branch": "develop",
-    "optional": false,
+    "required": true,
     "token": null
   },
   {
@@ -13,20 +13,20 @@
     "host": "wordpress",
     "slug": "query-monitor/query-monitor.php",
     "uri": "https://wordpress.org/plugins/query-monitor/",
-    "optional": false
+    "required": true
   },
   {
     "name": "WP Debugging",
     "host": "wordpress",
     "slug": "wp-debugging/wp-debugging.php",
     "uri": "https://wordpress.org/plugins/wp-debugging/",
-    "optional": false
+    "required": true
   },
   {
     "name": "Local Development",
     "host": "wordpress",
     "slug": "local-development/local-development.php",
     "uri": "https://wordpress.org/plugins/local-development/",
-    "optional": false
+    "required": true
   }
 ]
