@@ -2,19 +2,21 @@
 # This file is distributed under the same license as the Group Plugin Installer plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Group Plugin Installer 0.2.2\n"
+"Project-Id-Version: Group Plugin Installer 0.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/group-plugin-installer\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-01-23T23:06:16+00:00\n"
+"POT-Creation-Date: 2020-02-28T17:48:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: group-plugin-installer\n"
 
 #. Plugin Name of the plugin
+#: group-plugin-installer.php:42
+#: group-plugin-installer.php:55
 msgid "Group Plugin Installer"
 msgstr ""
 
@@ -28,4 +30,8 @@ msgstr ""
 
 #. Author of the plugin
 msgid "Andy Fragen"
+msgstr ""
+
+#: group-plugin-installer.php:57
+msgid "Another theme or plugin is using a previous version of the WP Dependency Installer library, please update this file and try again:"
 msgstr ""
